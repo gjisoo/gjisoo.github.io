@@ -26,14 +26,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "알고리즘" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/알고리즘" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "자료구조" %}
-                        <li><a href="/categories/datastructure" class="">자료구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/자료구조" class="">자료구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

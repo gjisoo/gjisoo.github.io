@@ -1,11 +1,11 @@
 ---
-title: "알고리즘"
+title: "자료구조"
 layout: archive
-permalink: categories/알고리즘
+permalink: categories/자료구조
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.알고리즘 %}
+{% assign posts = site.categories.자료구조 %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
