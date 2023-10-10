@@ -8,4 +8,4 @@ sidebar_main: true
 
 
 {% assign posts = site.categories.알고리즘 %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %} {% _includes archive-single.html type=page.entries_layout %} {% endfor %}
