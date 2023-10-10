@@ -1,7 +1,7 @@
 ---
 title: "알고리즘"
 layout: archive
-permalink: categories/알고리즘/
+permalink: categories/알고리즘
 author_profile: true
 sidebar_main: true
 ---
