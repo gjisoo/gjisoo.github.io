@@ -1,6 +1,6 @@
 ---
 title: "[jquery] body no-scroll "
-categories: [front-end]
+categories: [jquery]
 tags:
     [
         front-end

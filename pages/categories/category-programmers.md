@@ -1,11 +1,11 @@
 ---
-title: "자료구조"
+title: "프로그래머스"
 layout: archive
-permalink: /categories/datastructure/
+permalink: categories/programmers
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.datastructure %}
+{% assign posts = site.categories.programmers %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

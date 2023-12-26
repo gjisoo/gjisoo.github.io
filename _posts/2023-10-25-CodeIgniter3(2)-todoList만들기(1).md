@@ -1,6 +1,6 @@
 ---
 title: "[CodeIgniter3] TodoList만들기(1)"
-categories: [CodeIgniter3]
+categories: [codeIgniter3]
 tags:
     [
         CodeIgniter3

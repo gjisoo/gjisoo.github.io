@@ -25,21 +25,21 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "알고리즘" %}
-                        <li><a href="/categories/알고리즘" class="">알고리즘 ({{category[1].size}})</a></li>
+                    {% if category[0] == "algorithm" %}
+                        <li><a href="/categories/algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "자료구조" %}
+                    {% if category[0] == "datastructure" %}
                         <li><a href="/categories/datastructure" class="">자료구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "운영체제" %}
+                    {% if category[0] == "OS" %}
                         <li><a href="/categories/OS" class="">운영체제 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -53,12 +53,33 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "jquery" %}
+                        <li><a href="/categories/jquery" class="">ㄴJQUery ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "php" %}
+                        <li><a href="/categories/php" class="">PHP ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "codeIgniter3" %}
+                        <li><a href="/categories/codeIgniter3" class="">CodeIgniter3 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
             <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "코딩테스트" %}
-                        <li><a href="/categories/Programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

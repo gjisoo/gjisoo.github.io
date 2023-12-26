@@ -1,6 +1,6 @@
 ---
 title: "[CodeIgniter3] 개발환경구성"
-categories: [CodeIgniter3]
+categories: [codeIgniter3]
 tags:
     [
         CodeIgniter3

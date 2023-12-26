@@ -1,11 +1,11 @@
 ---
-title: "자료구조"
+title: "JQuery"
 layout: archive
-permalink: /categories/datastructure/
+permalink: categories/jquery
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.datastructure %}
+{% assign posts = site.categories.jquery %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
