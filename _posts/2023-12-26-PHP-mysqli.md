@@ -26,3 +26,29 @@ $mysqli->query("set session character_set_connection=utf8;");
 $mysqli->query("set session character_set_results=utf8;");
 $mysqli->query("set session character_set_client=utf8;");
 ```
+
+## query 실행
+
+``` php
+$query = "SELECT * ,a.loginTime FROM memberHistory AS a JOIN member AS b ON a.userID = b.userID WHERE b.userID = ?";
+
+$stmt = $mysqli->prepare($query);
+$stmt->bind_param("s",$userID);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+if ($result->num_rows === 0) {
+    echo '{"result":"none"}';
+} else {
+    $data = array();
+    while($row = $result->fetch_assoc()){
+        $data[] = $row;
+    }
+    echo json_encode($data);
+}
+
+$stmt->close();
+$mysqli->close();
+
+```
