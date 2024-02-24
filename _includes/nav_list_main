@@ -98,6 +98,15 @@
                 {% endfor %}
             </ul>
 
+            <span class="nav__sub-title">Memoirs</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "mystory" %}
+                        <li><a href="/categories/mystory" class="">나의이야기 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
   </ul>
 </nav>
